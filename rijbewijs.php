@@ -2,19 +2,14 @@
 
     
     $leeftijd = readline("wat is je leeftijd? \n");
-    $min_leeftijd =16.5;
+    $min_leeftijd = 16.5;
 
-        if($leeftijd >= $min_leeftijd)
+        if ($leeftijd >= $min_leeftijd)
         { 
-        
             echo "Je mag beginnen met rijlessen!";
-        
         }
 
     else { 
-    
         echo "Helaas, je mag nog niet beginnen met rijlessen";
-        
     }
-
 ?>
