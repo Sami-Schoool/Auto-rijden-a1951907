@@ -2,7 +2,7 @@
 
     
     $leeftijd = readline("wat is je leeftijd? \n");
-    $min_leeftijd =18; 
+    $min_leeftijd =16.5;
 
         if($leeftijd >= $min_leeftijd)
         { 
